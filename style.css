@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 26px;
+}
+
+.header ul {
+  display: flex;
+}
+.header ul li {
+  /* background-color: aqua; */
+  list-style: none;
+  margin: 0 10px;
+}
+
+img[src="../img/lap.jpeg"] {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 49px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+}
+
+.content div img {
+  /* margin: 0 60px; */
+  height: 80px;
+  width: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: math;
+  color: #ffffffc2;
+  background: black;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:hover {
+  color: aqua;
+}
